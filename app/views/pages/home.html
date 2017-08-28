@@ -1,0 +1,48 @@
+{{#section 'head'}}
+{{/section}}
+
+<div class="window">
+  <!-- .toolbar-header sits at the top of your app -->
+  <header class="toolbar toolbar-header">
+    <h1 class="title">Blink AI</h1>
+  </header>
+
+  <div class="window-content">
+    <div class="pane-group">
+      <div class="pane-sm sidebar">
+        <nav class="nav-group">
+          <h5 class="nav-group-title">User</h5>
+          <a class="nav-group-item active">
+            <span class="icon icon-user"></span>
+              {{user}}
+          </a>
+          <a class="nav-group-item active"  ng-click="logout()">
+            <span class="icon icon-logout"></span>
+            Logout
+          </a>
+
+          <a class="nav-group-item active" ng-click="dashboard()"><span class="icon icon-home"></span>Dashboard</a>
+
+          <h5 class="nav-group-title">Stores</h5>
+          <a class="nav-group-item active" ng-repeat="store in stores.entries.data" ng-click="getStoreDetailFunction(store.id)"><span class="icon icon-comment"></span>{{store.name}}
+          </a>
+          <a class="nav-group-item active" ng-click="dashboard()"><span class="icon icon-chat"></span> Conversation</a>
+        </nav>
+      </div>
+
+      <div class="pane">
+        <h1>This is an electron application using the express framework <a href="/about">about</a><a href="/dashboard">Dashboard</a></h1>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="toolbar toolbar-footer">
+    <h1 class="title"></h1>
+  </footer>
+
+</div>
+
+{{#section 'footer'}}
+<script src="/js/bundle.js" charset="utf-8"></script>
+{{/section}}

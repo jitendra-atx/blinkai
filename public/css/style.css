@@ -1,0 +1,69 @@
+.navbar-top-links li a.header-avatar {line-height: 0px;}
+
+.input-icon {width: 25px;}
+
+.input-group.list {margin-top: 10px;}
+
+#page-wrapper{margin: 0 0 0 0px;padding:0 0 0 0px;}
+.dashboard-column-left{z-index: 1;position:fixed;top:0;left:0;width:235px;
+  height:100%;background:#566;color: #fff;}
+.dashboard-column-right{margin-left:245px;min-height:100%;overflow: hidden;}
+
+.navbar-top-links li{display:block;}
+.navbar-top-links li a{display:block;line-height: 30px;cursor: pointer;}
+.navbar-top-links li a{color:#fff;}
+.navbar-top-links li a{padding:0px;}
+.page-header{margin:0px;}
+.row1{min-width:500px;clear:both;}
+.navbar-top-links .dropdown-menu li a{color:#000;}
+
+.navbar-top-links{padding-left:10px;font-size:16px;}
+.pane-group ui-view{margin: 0px;}
+.login{
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   width:700px;
+   min-height:500px;
+   transform: translate(-50%, -50%);
+   transform: -webkit-translate(-50%, -50%);
+   transform: -moz-translate(-50%, -50%);
+   transform: -ms-translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #c3c3c3;
+}
+.register{
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   width:700px;
+   min-height:500px;
+   transform: translate(-50%, -50%);
+   transform: -webkit-translate(-50%, -50%);
+   transform: -moz-translate(-50%, -50%);
+   transform: -ms-translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #c3c3c3;
+}
+.forgot{
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   width:700px;
+   min-height:500px;
+   transform: translate(-50%, -50%);
+   transform: -webkit-translate(-50%, -50%);
+   transform: -moz-translate(-50%, -50%);
+   transform: -ms-translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #c3c3c3;
+}
+
+.col-left{width:50%;float:left;text-align:center;}
+.col-right{width:50%;float:right;text-align:center;}
+.nav-group-title{color:#fff!important;}
+.nav-group-item:active, .nav-group-item.active{background:none;}
+.pane{overflow: auto;margin-left: 215px;}
+.header{width:100%;position:fixed;}
+.conversation{margin-top:110px; width: auto;}
+.table-striped span img{width:30px;}
